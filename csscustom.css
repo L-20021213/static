@@ -1,3 +1,7 @@
+/* 修改图片圆角 */
+img[src*="#img-radius"] {
+    border-radius: 9px;
+}
 /* 页脚footer */
 /* 渐变色滚动动画 */
 @-webkit-keyframes Gradient {
