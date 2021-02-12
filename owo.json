@@ -98,9 +98,8 @@
       { "icon": "<img src=\"https://cdn.jsdelivr.net/gh/imaegoo/emotion/bilibili/90cf159733e558137ed20aa04d09964436f618a1.png\">", "text": "tv_思考" },
       { "icon": "<img src=\"https://cdn.jsdelivr.net/gh/imaegoo/emotion/bilibili/0d15c7e2ee58e935adc6a7193ee042388adc22af.png\">", "text": "tv_惊吓" }
     ]
-  }
-},
-"Heo": {
+  },
+  "Heo": {
     "type": "image",
     "container": [
         { "icon": "<img src=\"https://cdn.jsdelivr.net/gh/zhheo/Sticker-Heo@0.3/Sticker-100/再见.png\">", "text": "heo_再见" },
@@ -152,3 +151,4 @@
         { "icon": "<img src=\"https://cdn.jsdelivr.net/gh/zhheo/Sticker-Heo@0.3/Sticker-100/牛年进宝.png\">", "text": "heo_牛年进宝" }
     ]
   }
+}
