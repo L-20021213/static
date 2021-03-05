@@ -102,9 +102,12 @@ img[src*="#img-radius"] {
     background: rgba(255,255,255,.3);
 }
 /* 所有背景（包括首页卡片、文章页、页面页等） */
-#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
-    /* 以下代表白色透明度为0.3 */
-    background: rgba(255,255,255,.3);
+#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+    background: var(--light_bg_color)
+}
+
+#aside-content .card-widget {
+    background: var(--light_bg_color)
 }
 /* 双栏卡片主页文章*/
 #recent-posts{
