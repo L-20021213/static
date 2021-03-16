@@ -14,7 +14,7 @@ function lovexhjSitetime() {
                 var todayMinute = today.getMinutes()
                 var todaySecond = today.getSeconds()
                 // 时间设置
-                var t1 = Date.UTC(2020, 04, 15, 15, 15, 00)
+                var t1 = Date.UTC(2020, 10, 30, 21, 00, 00)
                 var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)
                 var diff = t2 - t1
                 var diffYears = Math.floor(diff / years)
@@ -24,6 +24,6 @@ function lovexhjSitetime() {
                 var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
                     diffMinutes * minutes) / seconds)
                 document.getElementById("lovexhjSitetime").innerHTML = "我们相恋了" + diffYears + "年" + diffDays + "天" +
-                    diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒啦"
+                    diffHours + "时" + diffMinutes + "分" + diffSeconds + "秒啦"
             }
             lovexhjSitetime()
