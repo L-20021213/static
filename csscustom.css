@@ -135,7 +135,7 @@ img[src*="#img-radius"] {
 
 
 #recent-posts > .recent-post-item >.recent-post-info > .content {
-display:block;/*隐藏文章详情*/
+display:none;/*隐藏文章详情*/
 }
 #recent-posts > .recent-post-item {
 
