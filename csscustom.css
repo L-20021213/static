@@ -96,19 +96,24 @@ img[src*="#img-radius"] {
   color: #fff;
   background-color: #49b1f5;
 }
-/* 文章页背景 */
-.layout_post>#post {
-    /* 以下代表白色透明度为0.3 */
-    background: rgba(255,255,255,.3);
-}
-/* 所有背景（包括首页卡片、文章页、页面页等） */
-#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
-    background: var(--light_bg_color)
-}
-
-#aside-content .card-widget {
-    background: var(--light_bg_color)
-}
+/* 透明背景 */
+:root {
+    /* --card-bg: #fff; */
+    --card-bg: #f0f3f8d9;
+  }
+  
+  [data-theme="dark"] {
+    /* --card-bg: #121212; */
+    --card-bg: #12121288;
+    --btn-hover-color: #787878;
+    --btn-bg: #1f1f1f;
+    --btn-hover-color: #ff3f3f;
+    --btn-bg: #a153ff;
+    /* --font-color: rgba(255,255,255,0.7); */
+    /* --hr-border: rgba(255,255,255,0.4); */
+    --font-color: rgb(255, 255, 255);
+    --hr-border: rgb(161, 83, 255);
+  }
 /* 双栏卡片主页文章*/
 #recent-posts{
 	margin-top:-1rem;  /*头部为空时抵消间隔，若有磁贴或日历请注释掉该行*/
