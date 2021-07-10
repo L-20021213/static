@@ -99,6 +99,8 @@ img[src*="#img-radius"] {
   color: #fff;
   background-color: #49b1f5;
 }
+/* 文章页背景透明 */
+.layout > div:first-child:not(.recent-posts){background:transparent}
 /* 文章页背景 */
 .layout_post>#post {
     /* 以下代表白色透明度为0.3 */
