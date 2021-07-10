@@ -2,6 +2,13 @@
 img[src*="#img-radius"] {
     border-radius: 9px;
 }
+/* github按钮圆角 */
+#card-info-btn{
+  border-radius: 25px;
+  overflow: hidden}
+#card-info-btn:before{
+  border-radius: 25px
+}
 /* 导航栏圆角及透明 */
 #page-header.not-top-img #nav{background:transparent}
 #page-header.not-top-img #nav{border-radius: 25px;}
