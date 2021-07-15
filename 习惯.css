@@ -12,6 +12,31 @@ img[src*="#img-radius"] {
 /* 导航栏圆角及透明 */
 #page-header.not-top-img #nav{background:transparent}
 #page-header.not-top-img #nav{border-radius: 25px;}
+/* 导航栏居中及二级菜单 */
+#nav .menus_items {
+    position: absolute;
+    width: 405px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+#nav .menus_items .menus_item .menus_item_child li {
+  z-index: 2;
+  border-radius: 10px;
+  display: inline-flex;
+  overflow: hidden;
+}
+
+#nav .menus_items .menus_item .menus_item_child {
+  padding: 6px 8px 8px 8px;
+  left: -86px;
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
 /* 页脚footer */
 /* 渐变色滚动动画 */
 @-webkit-keyframes Gradient {
