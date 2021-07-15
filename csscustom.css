@@ -37,6 +37,11 @@ img[src*="#img-radius"] {
 	-moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
+/* 右侧小按钮圆角 */
+#rightside>div>button,#to_comment {
+  margin-right: 4px;
+  border-radius: 5px;
+}
 /* 页脚footer */
 /* 渐变色滚动动画 */
 @-webkit-keyframes Gradient {
