@@ -26,6 +26,9 @@ img[src*="#img-radius"] {
     right: 0;
     margin: auto
 }
+#nav.hide-menu .menus_items {
+display: none
+}
 #nav .menus_items .menus_item .menus_item_child li {
   z-index: 2;
   border-radius: 10px;
