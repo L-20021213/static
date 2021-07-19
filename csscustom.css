@@ -136,7 +136,7 @@ display: none
 
 ::-moz-selection {
   color: #fff;
-  background-color: #49b1f5;
+  background-color: #99CC99;
 }
 /* 文章页背景透明 */
 .layout > div:first-child:not(.recent-posts){background:transparent}
