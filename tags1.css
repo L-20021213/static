@@ -524,7 +524,7 @@ div.snote.blue::before {
   color: #2196f3;
 }
 /*几款好看的css美化框*/
-#zm_mhz,#zm_xgh,#zm_tkzj,#zm_gll ,#zm_yyz,{
+#zm_mhz,#zm_xgh,#zm_tkzj,#zm_gll ,#zm_yyz{
     /*圆角值,在此定义*/
     border-radius: 8px;
 }
