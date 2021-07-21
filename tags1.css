@@ -523,3 +523,64 @@ div.snote.blue {
 div.snote.blue::before {
   color: #2196f3;
 }
+/*几款好看的css美化框*/
+#zm_mhz,#zm_xgh,#zm_tkzj,#zm_gll ,#zm_yyz,{
+    /*圆角值,在此定义*/
+    border-radius: 8px;
+}
+/*迷幻紫*/
+#zm_mhz{
+    color: #555555;
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 15px 15px 15px 35px;
+    /*border-radius: 10px;*/
+    box-shadow: 6px 0 12px -5px rgb(190, 196, 252), -6px 0 12px -5px rgb(189, 196, 252);
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg,#8EC5FC 0%,#E0C3FC 100%);
+    background-image: -webkit-linear-gradient(62deg,#8EC5FC 0%,#E0C3FC 100%);
+}
+/*西瓜红*/
+#zm_xgh{
+        color: #555555;
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 15px 15px 15px 35px;
+    /*border-radius: 10px;*/
+    box-shadow: 6px 0 12px -5px rgb(255, 176, 172), -6px 0 12px -5px rgb(255, 161, 174);
+    background-color: #ff9a8b66;
+    background-image: linear-gradient(220deg,#FF9A8B 0%,#ff6a8838 55%,#FF99AC 100%);
+    background-image: -webkit-linear-gradient(220deg,#ff9a8b7a 0%,#ff6a88ab 55%,#ff99ac82 100%);
+}
+/*天空之境*/
+#zm_tkzj {
+    color: #555555;
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 15px 15px 15px 35px;
+    /*border-radius: 10px;*/
+    box-shadow: 6px 0 12px -5px rgb(253, 223, 234), -6px 0 12px -5px rgb(215, 240, 243);
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg,#ffdee9c4 0%,#b5fffc8f 100%);
+    background-image: -webkit-linear-gradient(0deg,#ffdee9c4 0%,#b5fffc8f 100%);
+}
+/*橄榄绿*/
+#zm_gll {
+    color: #eeeeee;
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 15px 15px 15px 35px;
+    /*border-radius: 10px;*/
+    box-shadow: 6px 0 12px -5px rgb(68, 110, 92), -6px 0 12px -5px rgb(204, 212, 163);
+    background-image: linear-gradient( 102deg, rgba(68,110,92,1) 17.4%, rgba(107,156,120,1) 49.3%, rgba(154,183,130,1) 83.4%, rgba(247,237,191,1) 110.3% );
+}
+/*优雅紫*/
+#zm_yyz {
+    color: #ffffff;
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 15px 15px 15px 35px;
+    /*border-radius: 10px;*/
+    box-shadow: 6px 0 12px -5px rgb(175, 160, 208), -6px 0 12px -5px rgba(177, 161, 207, 0);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(95,117,227,1) 0%, rgba(188,167,205,1) 90% );
+}
