@@ -2,6 +2,18 @@
 img[src*="#img-radius"] {
     border-radius: 9px;
 }
+/* 侧边栏圆角 */
+#aside-content .card-widget {
+border-radius: 25px;
+}
+/* 文章页圆角 */
+.layout>div:first-child:not(.recent-posts) {
+border-radius: 25px;
+}
+/* 双栏卡片圆角 */
+#recent-posts>.recent-post-item {
+border-radius: 25px;
+}
 /* github按钮圆角 */
 #card-info-btn{
   border-radius: 25px;
