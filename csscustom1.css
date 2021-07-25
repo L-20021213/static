@@ -167,15 +167,22 @@ display: none
 #page h1.page-title,#post>#post-info {
     text-align: center
 }
-/* 文章页半透明 */
+/* 以下透明度设置 */
+#content-inner {
+    --light_bg_color: hsla(0,0%,100%,0.6);
+    --dark_bg_color: rgba(18,18,18,0.8);
+    --light_page_color: hsla(0,0%,100%,0.5);
+    --dark_page_color: rgba(18,18,18,0.8)
+}
+/* 文章页透明 */
 #recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
     background: var(--light_page_color)
 }
-/* 侧边栏半透明 */
+/* 侧边栏半明 */
 #aside-content .card-widget {
     background: var(--light_bg_color)
 }
-/*首页卡片半透明 */
+/*首页卡片半明 */
 #recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
     background: var(--light_page_color)
 }
