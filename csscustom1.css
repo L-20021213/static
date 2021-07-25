@@ -163,20 +163,21 @@ display: none
   color: #fff;
   background-color: #99CC99;
 }
-/* 文章页背景透明 */
-.layout > div:first-child:not(.recent-posts){background:transparent}
-/* 文章页背景 */
-.layout_post>#post {
-    /* 以下代表白色透明度为0.3 */
-    background: rgba(255,255,255,.3);
+/* 文章标题居中 */
+#page h1.page-title,#post>#post-info {
+    text-align: center
 }
-/* 所有背景（包括首页卡片、文章页、页面页等） */
-#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
-    background: var(--light_bg_color)
+/* 文章页半透明 */
+#recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+    background: var(--light_page_color)
 }
-
+/* 侧边栏半透明 */
 #aside-content .card-widget {
     background: var(--light_bg_color)
+}
+/*首页卡片半透明 */
+#recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+    background: var(--light_page_color)
 }
 /* 双栏卡片主页文章*/
 #recent-posts{
