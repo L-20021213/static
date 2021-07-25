@@ -178,13 +178,17 @@ display: none
 #recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
     background: var(--light_page_color)
 }
-/* 侧边栏半明 */
+/* 侧边栏透明 */
 #aside-content .card-widget {
     background: var(--light_bg_color)
 }
-/*首页卡片半明 */
+/*首页卡片透明 */
 #recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
     background: var(--light_page_color)
+}
+/*深色页面透明 */
+[data-theme=dark] #recent-posts>.recent-post-item,[data-theme=dark] .layout>div:first-child:not(.recent-posts),[data-theme=dark] .layout_post>#page,[data-theme=dark] .layout_post>#post,[data-theme=dark] .read-mode .layout_post>#post {
+    background: var(--dark_page_color)
 }
 /* 双栏卡片主页文章*/
 #recent-posts{
