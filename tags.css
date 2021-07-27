@@ -605,7 +605,7 @@ details[red] >summary {
   border-radius: 12px;
 }
 
-details >summary {
+details[grey] >summary {
   background: #efefef;
   border-radius: 12px;
 }
