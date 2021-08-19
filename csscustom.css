@@ -42,7 +42,7 @@ border-radius: 25px;
 /* 导航栏圆角及透明 */
 #page-header.not-top-img #nav{background:transparent}
 #page-header.not-top-img #nav{border-radius: 25px;}
-/* 导航栏居中及二级菜单 */
+/* 导航栏居中 */
 #nav .menus_items {
     position: absolute;
     width: 500px;
@@ -54,15 +54,28 @@ border-radius: 25px;
 #nav.hide-menu .menus_items {
 display: none
 }
+/* 横向排布子菜单 */
+#nav .menus_items .menus_item .menus_item_child li {
+  display: inline-block;
+}
+/* 圆角隐藏 */
+ul.menus_item_child {
+  overflow: hidden;
+  border-radius: 5px;
+}
+/* 调整空隙，确保不会天下武功唯快不破 */
+#nav .menus_items .menus_item .menus_item_child {
+  margin-top: 0px !important;
+}
 #nav .menus_items .menus_item .menus_item_child li {
   z-index: 2;
   border-radius: 10px;
   display: inline-flex;
   overflow: hidden;
 }
+/* 二级菜单样式 */
 #nav .menus_items .menus_item .menus_item_child {
   padding: 6px 8px 8px 8px;
-  left: -192px;
   border-radius: 12px;
   -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
