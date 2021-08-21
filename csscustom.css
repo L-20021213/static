@@ -40,7 +40,7 @@ border-radius: 25px;
 	min-width: 1.6rem;
 }
 /* 导航栏居中 */
-#toggle-menu{flex: 1;}
+#navFn{flex: 1;}
 /* 导航栏置顶透明覆盖 */
 #page-header.not-top-img #nav {
     background: rgba(255,255,255,0);
