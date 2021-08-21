@@ -90,6 +90,13 @@ ul.menus_item_child {
 	-moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
+/*阿里图标库设置*/
+svg.icon {
+width: 1em; height: 1em; /* width和height定义图标的默认宽度和高度*/
+vertical-align: -0.15em;
+fill: currentColor;
+overflow: hidden;
+}
 /* 页脚footer */
 /* 渐变色滚动动画 */
 @-webkit-keyframes Gradient {
@@ -277,11 +284,4 @@ display:none;/*隐藏文章详情*/
 @media screen and (max-width: 768px) {
 #recent-posts > .recent-post-item {
  width:100%;/*控制手机自适应*/
-}
-/*阿里图标库设置*/
-svg.icon {
-width: 1em; height: 1em; /* width和height定义图标的默认宽度和高度*/
-vertical-align: -0.15em;
-fill: currentColor;
-overflow: hidden;
 }
