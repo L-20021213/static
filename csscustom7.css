@@ -280,9 +280,8 @@ display:none;/*隐藏文章详情*/
 }
 /*阿里图标库设置*/
 svg.icon {
-   width: 1em; height: 1em;
-   /* width和height定义图标的默认宽度和高度*/
-   vertical-align: -0.15em;
-   fill: currentColor;
-   overflow: hidden;
+width: 1em; height: 1em; /* width和height定义图标的默认宽度和高度*/
+vertical-align: -0.15em;
+fill: currentColor;
+overflow: hidden;
 }
