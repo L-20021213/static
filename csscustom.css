@@ -90,7 +90,13 @@ ul.menus_item_child {
 	-moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
-
+svg.icon {
+   width: 1em; height: 1em;
+   /* width和height定义图标的默认宽度和高度*/
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
 /* 页脚footer */
 /* 渐变色滚动动画 */
 @-webkit-keyframes Gradient {
