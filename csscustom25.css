@@ -42,14 +42,14 @@ border-radius: 25px;
 /* 导航栏居中 */
 #navFn{flex: 1;}
 #nav
-  #search-button
-    display: inline
-    padding: 0 0 0 0.3rem 
-    position: relative
-    padding-bottom: 0.3rem
-    text-shadow: 0.05rem 0.05rem 0.1rem rgb(0 0 0 / 30%)
-    cursor: pointer
-
+  #search-button{
+    display: inline;
+    padding: 0 0 0 0.3rem ;
+    position: relative;
+    padding-bottom: 0.3rem;
+    text-shadow: 0.05rem 0.05rem 0.1rem rgb(0 0 0 / 30%);
+    cursor: pointer;
+}
 /* 导航栏置顶透明覆盖 */
 #page-header.not-top-img #nav {
     background: rgba(255,255,255,0);
