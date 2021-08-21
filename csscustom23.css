@@ -41,6 +41,11 @@ border-radius: 25px;
 }
 /* 导航栏居中 */
 #navFn{flex: 1;}
+@media screen and (max-width: 900px){
+  #navFn
+    display: none;
+ }
+}
 /* 导航栏置顶透明覆盖 */
 #page-header.not-top-img #nav {
     background: rgba(255,255,255,0);
