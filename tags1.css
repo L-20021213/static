@@ -599,13 +599,6 @@ details {
 details {
     background: var(--dark_toggle-bg)
 }
-/*Tab线条颜色改变*/
-#article-container .tabs > .nav-tabs > .tab.active button {
-  border-top: 2px solid #49b1f500 !important;
-  background: #6c6f711f;
-  cursor: default;
-  border-radius: 12px !important;
-}
 /*折叠框改变*/
 details[green] >summary {
   background: #deefe0;
