@@ -596,8 +596,8 @@ details {
 background: var(--light_toggle-bg)
 }
 /*收缩框深色 */
-details {
-[data-theme=dark] background: var(--dark_toggle-bg)
+[data-theme=dark] details {
+background: var(--dark_toggle-bg)
 }
 /*折叠框改变*/
 details[green] >summary {
