@@ -311,6 +311,9 @@ p {
 #search-button{
       font-family: 'aqqxs', sans-serif; /* 搜索 */
 }
+#article-container code,#article-container pre {
+  font-family: 'aqqxs', sans-serif !important; /* code标签以及代码块 */
+}
 /* 双栏卡片主页文章*/
 #recent-posts{
 	margin-top:-1rem;  /*头部为空时抵消间隔，若有磁贴或日历请注释掉该行*/
