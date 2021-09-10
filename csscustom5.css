@@ -235,7 +235,7 @@ svg.icon {
 /*字体*/
 @font-face{
   font-family:'aqqxs' ;  /* 字体名自定义即可 */
-  src:url('https://cdn.jsdelivr.net/npm/static-sianx/ZhuZiAWan.woff2'); /* 字体文件路径 */
+  src:url('https://cdn.jsdelivr.net/gh/L-20021213/Static/ZhuZiAWan1.woff'); /* 字体文件路径 */
   font-display : swap;
 }
 
