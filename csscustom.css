@@ -39,6 +39,10 @@ border-radius: 25px;
 	display: inline-block;
 	min-width: 1.6rem;
 }
+/* 目录圆角 */
+#aside-content #card-toc .toc-content .toc-link.active {
+    border-radius: 8px;
+}
 /* 导航栏居中 */
 #navFn{
 flex: 1;
