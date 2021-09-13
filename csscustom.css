@@ -2,6 +2,10 @@
 img[src*="#img-radius"] {
     border-radius: 9px;
 }
+/* 版权圆角 */
+#post .post-copyright {
+    border-radius: 30px;
+}
 /* 侧边栏圆角 */
 #aside-content .card-widget {
 border-radius: 25px;
@@ -211,6 +215,8 @@ svg.icon {
     --dark_page_color: rgba(18,18,18,0.8);
     --light_link-bg: rgba(237,240,247,0.46);
     --dark_link-bg: rgba(237,240,247,0.05);
+    --light_copyright-bg: rgb(255, 255, 255);
+    --dark_copyright-bg: rgba(237,240,247,0.05);
 }
 /* 文章页及首页卡片透明 */
 #recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
@@ -236,6 +242,12 @@ svg.icon {
 [data-theme=dark] #article-container .flink .flink-list>.flink-list-item {
     background: var(--dark_link-bg)
 }
+/*版权页面浅色 */
+#post .post-copyright {
+  background: var(--light_copyright-bg)
+/*版权页面深色 */
+[data-theme=dark] #post .post-copyright {
+  background: var(--dark_copyright-bg)
 /*字体*/
 @font-face{
   font-family:'aqqxs' ;  /* 字体名自定义即可 */
