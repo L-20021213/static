@@ -244,10 +244,12 @@ svg.icon {
 }
 /*版权页面浅色 */
 #post .post-copyright {
-  background: var(--light_copyright-bg)
+    background: var(--light_copyright-bg)
+}
 /*版权页面深色 */
 [data-theme=dark] #post .post-copyright {
-  background: var(--dark_copyright-bg)
+    background: var(--dark_copyright-bg)
+}
 /*字体*/
 @font-face{
   font-family:'aqqxs' ;  /* 字体名自定义即可 */
