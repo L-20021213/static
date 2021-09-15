@@ -47,6 +47,14 @@ border-radius: 25px;
 #aside-content #card-toc .toc-content .toc-link.active {
     border-radius: 8px;
 }
+/* 上下一篇圆角 */
+#pagination.pagination-post {
+  border-radius: 25px;
+}
+/* 相关推荐圆角 */
+.relatedPosts>.relatedPosts-list>div {
+  border-radius: 25px;
+}
 /* 导航栏居中 */
 #navFn{
 flex: 1;
