@@ -1,3 +1,4 @@
+//纪念日黑色
 if(aidaori()){
   btf.isJqueryLoad(() => {
     $("html").css({
