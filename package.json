@@ -1,6 +1,6 @@
 {
   "name": "static-sianx",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "本项目用于备份网站的CSS、js等静态文件。",
   "main": "jscustom.js",
   "scripts": {
